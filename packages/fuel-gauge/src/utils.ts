@@ -20,13 +20,6 @@ async function createWallet() {
   return walletInstance;
 }
 
-export async function getWallet() {
-  if (walletInstance) {
-    return walletInstance;
-  }
-  throw new Error('Wallet not created yet');
-}
-
 /*
   Contract
 */

@@ -13,6 +13,7 @@ nav_order: 3
 ## Enumerations
 
 - [GqlCoinStatus](../enums/internal-GqlCoinStatus.md)
+- [GqlMessageStatus](../enums/internal-GqlMessageStatus.md)
 - [GqlReturnType](../enums/internal-GqlReturnType.md)
 - [TransactionType](../enums/internal-TransactionType.md)
 
@@ -557,7 +558,7 @@ ___
 
 #### Defined in
 
-[packages/providers/src/resource.ts:31](https://github.com/FuelLabs/fuels-ts/blob/master/packages/providers/src/resource.ts#L31)
+[packages/providers/src/resource.ts:36](https://github.com/FuelLabs/fuels-ts/blob/master/packages/providers/src/resource.ts#L36)
 
 ___
 
@@ -702,10 +703,11 @@ A Fuel message
 | `nonce` | [`BN`](../classes/internal-BN.md) |
 | `recipient` | [`AbstractAddress`](../classes/internal-AbstractAddress.md) |
 | `sender` | [`AbstractAddress`](../classes/internal-AbstractAddress.md) |
+| `status` | [`GqlMessageStatus`](../enums/internal-GqlMessageStatus.md) |
 
 #### Defined in
 
-[packages/providers/src/message.ts:9](https://github.com/FuelLabs/fuels-ts/blob/master/packages/providers/src/message.ts#L9)
+[packages/providers/src/message.ts:11](https://github.com/FuelLabs/fuels-ts/blob/master/packages/providers/src/message.ts#L11)
 
 ___
 
@@ -1155,7 +1157,7 @@ ___
 
 #### Defined in
 
-[packages/providers/src/resource.ts:27](https://github.com/FuelLabs/fuels-ts/blob/master/packages/providers/src/resource.ts#L27)
+[packages/providers/src/resource.ts:32](https://github.com/FuelLabs/fuels-ts/blob/master/packages/providers/src/resource.ts#L32)
 
 ___
 
@@ -1283,7 +1285,7 @@ ___
 
 #### Defined in
 
-[packages/providers/src/transaction-request/transaction-request.ts:597](https://github.com/FuelLabs/fuels-ts/blob/master/packages/providers/src/transaction-request/transaction-request.ts#L597)
+[packages/providers/src/transaction-request/transaction-request.ts:577](https://github.com/FuelLabs/fuels-ts/blob/master/packages/providers/src/transaction-request/transaction-request.ts#L577)
 
 ___
 
@@ -1303,7 +1305,7 @@ ___
 
 #### Defined in
 
-[packages/providers/src/transaction-request/transaction-request.ts:598](https://github.com/FuelLabs/fuels-ts/blob/master/packages/providers/src/transaction-request/transaction-request.ts#L598)
+[packages/providers/src/transaction-request/transaction-request.ts:578](https://github.com/FuelLabs/fuels-ts/blob/master/packages/providers/src/transaction-request/transaction-request.ts#L578)
 
 ___
 

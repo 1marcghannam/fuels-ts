@@ -1,5 +1,16 @@
 # Change Log
 
+## 0.32.0
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @fuel-ts/contract@0.32.0
+  - @fuel-ts/abi-coder@0.32.0
+  - @fuel-ts/address@0.32.0
+  - @fuel-ts/interfaces@0.32.0
+  - @fuel-ts/versions@0.32.0
+
 ## 0.31.0
 
 ### Patch Changes
